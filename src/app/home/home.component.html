@@ -1,0 +1,115 @@
+<!-- navbar code -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="assets/images/logo1.png" style="height:50px;width:50px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto ">
+      <li class="nav-item ">
+        <a class="nav-link" routerLink="/carousel">ಮನೆ <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/training">ತರಬೇತಿ </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/events">ಕಾರ್ಯಕ್ರಮಗಳು</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/achievements">ಸಾಧನೆಗಳು</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" routerLink="/contact" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          ಸಂಪರ್ಕಿಸಿ
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Link1</a>
+          <a class="dropdown-item" href="#">Link2</a>
+          <a class="dropdown-item" href="#">Link3</a>
+          <a class="dropdown-item" href="#">Link4</a>
+          <a class="dropdown-item" href="#">Link5</a>
+          <a class="dropdown-item" href="#">Link6</a>
+          <a class="dropdown-item" href="#">Link7</a>
+
+
+            </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about">ನಮ್ಮ ಬಗ್ಗೆ</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+<!-- navbar ends  -->
+<router-outlet></router-outlet>
+
+<!-- carousel -->
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+   
+      <ngb-carousel *ngIf="images">
+        <ng-template ngbSlide>
+          <img [src]="images[0]" alt="Random first slide">
+          <div class="carousel-caption">
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <img [src]="images[1]" alt="Random second slide">
+          <div class="carousel-caption">
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <img [src]="images[2]" alt="Random third slide">
+          <div class="carousel-caption">
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+    <div class="col-md-12"></div>
+  </div>
+</div> -->
+
+
+<!-- carousel ends -->
+
+
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4" style="background-color:#e6ebf4 ;">
+
+    <!-- Footer Elements -->
+   
+  <!-- Footer -->
+  <div class="copy-right py-2">
+      <div class="container-fluid inner-sec-w3ls">
+          <div class="row">
+              <div class="col-lg-6 copy-w3pvt">
+                  <p class="copy-right-grids text-li text-left my-sm-4 my-4">&copy; 2019 Copyright AZmartialArts
+                      <!--<a href="http://w3layouts.com/"> creativepath </a>-->
+                  </p>
+              </div>
+              <div class="col-lg-5 w3layouts-footer text-right">
+                  <ul class="social_section_1info">
+                      <li class="mb-2 facebook" style="list-style-type:none;display:inline-block;"><a href="#"><span class="fa fa-facebook"></span> facebook</a></li>
+                      <li class="mb-2 twitter"  style="list-style-type:none;display:inline-block;"><a href="https://www.youtube.com/channel/UCySRTERI4SniFqRvhDKy7-g"><span class="fa fa-youtube"></span> youtube</a></li>
+                      <li class="google"  style="list-style-type:none;display:inline-block;"><a href="#"><span class="fa fa-google-plus"></span> google</a></li>
+                    <!--  <li class="linkedin"><a href="#"><span class="fa fa-linkedin"></span> linkedin</a></li>-->
+                  </ul>
+              </div>
+          </div>
+          <!-- //footer bottom -->
+      </div>
+  </div>
+<!-- footer ends -->
